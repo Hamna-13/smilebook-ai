@@ -9,15 +9,22 @@ interface HeroSectionProps {
 const HeroSection = ({ onBookClick }: HeroSectionProps) => {
   return (
     <section id="home" className="relative min-h-screen flex items-center pt-20 overflow-hidden">
-      {/* Background */}
+      {/* Background with subtle image */}
       <div className="absolute inset-0 bg-dental-warm" />
+      <div className="absolute inset-0">
+        <img
+          src={heroImage}
+          alt="Modern dental clinic interior"
+          className="w-full h-full object-cover opacity-[0.08]"
+        />
+      </div>
       <div className="absolute top-0 right-0 w-1/2 h-full hidden lg:block">
         <img
           src={heroImage}
           alt="Modern dental clinic interior"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover opacity-40"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-dental-warm via-dental-warm/60 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-dental-warm via-dental-warm/70 to-dental-warm/20" />
       </div>
 
       <div className="container mx-auto px-6 relative z-10">
