@@ -104,7 +104,7 @@ const ChatInterface = ({ isOpen, onClose }: ChatInterfaceProps) => {
                     DentaCare Assistant
                   </h3>
                   <div className="flex items-center gap-1.5">
-                    <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
+                    <div className="w-2 h-2 rounded-full animate-pulse" style={{ backgroundColor: "hsl(142, 71%, 60%)" }} />
                     <span className="text-xs text-primary-foreground/80 font-body">Online</span>
                   </div>
                 </div>
