@@ -12,8 +12,8 @@ const Navbar = () => {
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2">
           <div className="w-10 h-10 rounded-xl gradient-hero flex items-center justify-center">
-            <svg viewBox="0 0 24 24" className="w-6 h-6" fill="hsl(var(--primary-foreground))">
-              <path d="M7 2C4.5 2 3 4 3 6.5c0 2 .5 3.5 1.5 5C5.5 13 7 15.5 8 18c.8 2 1.5 4 4 4s3.2-2 4-4c1-2.5 2.5-5 3.5-6.5 1-1.5 1.5-3 1.5-5C21 4 19.5 2 17 2c-1.5 0-2.8.8-3.5 2h-3C9.8 2.8 8.5 2 7 2z" />
+            <svg viewBox="0 0 100 100" className="w-6 h-6" fill="hsl(var(--primary-foreground))">
+              <path d="M30 15c-12 0-18 8-18 20 0 8 2 14 6 22 4 8 8 18 12 28 2 5 4 5 6 0 2-6 4-10 7-14 1-2 2-4 7-4s6 2 7 4c3 4 5 8 7 14 2 5 4 5 6 0 4-10 8-20 12-28 4-8 6-14 6-22 0-12-6-20-18-20-6 0-11 3-14 9-2 4-4 6-7 6s-5-2-7-6C41 18 36 15 30 15z" />
             </svg>
           </div>
           <span className="font-display text-xl font-bold text-foreground">DentaCare</span>
