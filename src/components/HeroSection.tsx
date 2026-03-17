@@ -53,7 +53,7 @@ const HeroSection = ({ onBookClick }: HeroSectionProps) => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="font-body text-lg text-muted-foreground max-w-lg mb-8 leading-relaxed"
+            className="font-body text-lg text-muted-foreground max-w-lg mx-auto mb-8 leading-relaxed"
           >
             Experience world-class dental care with cutting-edge technology and a compassionate team 
             dedicated to making every visit comfortable and stress-free.
