@@ -12,7 +12,9 @@ const Navbar = () => {
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2">
           <div className="w-10 h-10 rounded-xl gradient-hero flex items-center justify-center">
-            <span className="text-primary-foreground font-display font-bold text-lg">D</span>
+            <svg viewBox="0 0 24 24" className="w-6 h-6" fill="hsl(var(--primary-foreground))">
+              <path d="M7 2C4.5 2 3 4 3 6.5c0 2 .5 3.5 1.5 5C5.5 13 7 15.5 8 18c.8 2 1.5 4 4 4s3.2-2 4-4c1-2.5 2.5-5 3.5-6.5 1-1.5 1.5-3 1.5-5C21 4 19.5 2 17 2c-1.5 0-2.8.8-3.5 2h-3C9.8 2.8 8.5 2 7 2z" />
+            </svg>
           </div>
           <span className="font-display text-xl font-bold text-foreground">DentaCare</span>
         </a>
