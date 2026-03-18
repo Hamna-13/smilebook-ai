@@ -28,7 +28,7 @@ const HeroSection = ({ onBookClick }: HeroSectionProps) => {
       </div>
 
       <div className="container mx-auto px-6 relative z-10">
-        <div className="max-w-2xl">
+        <div className="max-w-2xl mx-auto text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -53,7 +53,7 @@ const HeroSection = ({ onBookClick }: HeroSectionProps) => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="font-body text-lg text-muted-foreground max-w-lg mb-8 leading-relaxed"
+            className="font-body text-lg text-muted-foreground max-w-lg mx-auto mb-8 leading-relaxed"
           >
             Experience world-class dental care with cutting-edge technology and a compassionate team 
             dedicated to making every visit comfortable and stress-free.
@@ -63,7 +63,7 @@ const HeroSection = ({ onBookClick }: HeroSectionProps) => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="flex flex-col sm:flex-row gap-4 mb-12"
+            className="flex flex-col sm:flex-row gap-4 mb-12 justify-center"
           >
             <button
               onClick={onBookClick}
@@ -84,7 +84,7 @@ const HeroSection = ({ onBookClick }: HeroSectionProps) => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.5 }}
-            className="flex flex-wrap gap-6"
+            className="flex flex-wrap gap-6 justify-center"
           >
             {[
               { icon: Shield, text: "Certified Dentists" },

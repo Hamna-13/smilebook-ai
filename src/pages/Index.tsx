@@ -6,18 +6,19 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import FooterSection from "@/components/FooterSection";
 import ChatInterface from "@/components/ChatInterface";
 import { MessageCircle } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const Index = () => {
   const [isChatOpen, setIsChatOpen] = useState(false);
-
+  const navigate = useNavigate();
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-      <HeroSection onBookClick={() => setIsChatOpen(true)} />
+      <HeroSection onBookClick={() => navigate("/book-appointment")} />
       <ServicesSection />
       <TestimonialsSection />
       <FooterSection />
-      <ChatInterface isOpen={isChatOpen} onClose={() => setIsChatOpen(false)} />
+      
 
       {/* Floating chat button */}
       {!isChatOpen && (
